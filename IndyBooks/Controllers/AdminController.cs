@@ -122,7 +122,6 @@ namespace IndyBooks.Controllers;
          public IActionResult UpdateBook(long id)
         {
             //TODO: Write a method to load book info into the ViewModel for the CreateBook View
-
             
             Book book = _db.Books.Find(id);
 
