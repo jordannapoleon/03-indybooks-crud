@@ -41,9 +41,14 @@
             </td>
             <td class="rightedge">
                 <!-- Sets the asp-route-id attribute to the  book.Id in the Remove and Update links -->
-                <a asp-action="DeleteBook" asp-controller="Admin"
-                   asp-route-id="@book.Id">Remove</a> |
+                <a asp-action="RemoveBook" asp-controller="Admin"
+                   asp-route-id="@book.Id"
+                   >Remove</a>
+
                 <!-- TODO: Add an "Update action link here-->
+                <a asp-action="UpdateBook" asp-controller="Admin"
+                   asp-route-id="@book.Id"
+                   >Update</a>
 
             </td>
         </tr>

@@ -31,7 +31,7 @@ app.MapControllerRoute(
     {
         controller = "Admin",
         action = "Index",
-        id = "0" //TODO: set id default to 0 to show all books by default
+        id = 0 //TODO: set id default to 0 to show all books by default
     });
 
 app.Run();
